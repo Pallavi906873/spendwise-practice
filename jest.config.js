@@ -1,3 +1,5 @@
+process.env.NODE_ENV = 'test';
+
 const { createDefaultPreset } = require("ts-jest");
 
 const tsJestTransformCfg = createDefaultPreset().transform;
